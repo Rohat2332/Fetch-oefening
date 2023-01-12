@@ -1,0 +1,70 @@
+.mbutton{
+    text-decoration: none;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+    transition: ease-out 200ms;
+    padding: 10px;
+}
+.mbutton:hover{
+    transform: scale(110%);
+    background-color: royalblue;
+    transition-duration:400ms;
+}
+input{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    background-color:lightgrey;
+    height: 30px;
+    text-align:center;
+    font-size: 18px;
+    transition: ease-out 200ms;
+}
+input:hover{
+    background-color:darkgrey;
+    transition-duration:500ms;
+}
+.naam {
+    font-weight: bolder;
+    text-decoration: none;
+}
+#overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5) ;
+    font-family: Arial;
+}
+.cancel{
+    width: 200px;
+    height: 75px;
+    font-size: 30px;
+    opacity: 50%;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+    transition: ease-out 200ms;
+    padding: 10px;
+}
+.cancel:hover{
+    transform: scale(110%);
+    background-color: royalblue;
+    transition-duration:400ms;
+}
+.popup {
+    opacity: 1;
+    position: fixed;
+    font-size: 30px;
+    text-align: center;
+    text-color: black;
+    top: 27.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+[x-cloak] { display: none !important; }
